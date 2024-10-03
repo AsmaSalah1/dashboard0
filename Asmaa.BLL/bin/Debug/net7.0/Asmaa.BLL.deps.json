@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Asmaa.BLL/1.0.0": {
+        "dependencies": {
+          "Asmaa.DAL": "1.0.0"
+        },
+        "runtime": {
+          "Asmaa.BLL.dll": {}
+        }
+      },
+      "Asmaa.DAL/1.0.0": {
+        "runtime": {
+          "Asmaa.DAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Asmaa.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Asmaa.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
