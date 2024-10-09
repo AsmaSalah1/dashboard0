@@ -4,6 +4,9 @@
 @section header {
     Index
 }
+@section style{
+	<link href="~/lib/datatables/css/datatables.bootstrap4.min.css" rel="stylesheet" />
+}
 <div class="col-md-12">
     <div class="card">
         <div class="card-header">
@@ -58,3 +61,11 @@
     </div>
     <a asp-controller="LastProduct" asp-action="Create" class="btn btn-primary">Create</a>
 </div>
+@section scriptes{
+	<script src="~/lib/datatables/js/datatables.bootstrap4.min.js"></script>
+	<script src="~/lib/datatables/js/jquery.datatables.min.js"></script>
+    <script>
+        new DataTable('table');
+    </script>
+}
+

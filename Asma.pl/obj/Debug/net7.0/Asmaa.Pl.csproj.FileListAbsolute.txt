@@ -269,3 +269,4 @@ C:\Users\user\Desktop\asp\seesion1\Asmaa\Asma.pl\bin\Debug\net7.0\Mono.TextTempl
 C:\Users\user\Desktop\asp\seesion1\Asmaa\Asma.pl\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\user\Desktop\asp\seesion1\Asmaa\Asma.pl\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\user\Desktop\asp\seesion1\Asmaa\Asma.pl\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user\Desktop\asp\seesion1\Asmaa\Asma.pl\bin\Debug\net7.0\libman.json

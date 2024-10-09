@@ -8237,16 +8237,20 @@
       "PackagePath": "staticwebassets\\files\\Images\\21bfe728-a972-4697-ab0d-86acb190dd7aIMG_20180608_204819399.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\78248485-5069-46ce-a173-d64e79fb9c9cIMG_20180608_191939123.mp4",
-      "PackagePath": "staticwebassets\\files\\Images\\78248485-5069-46ce-a173-d64e79fb9c9cIMG_20180608_191939123.mp4"
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\2c81be3d-8e58-4f12-b6a7-b51cf4cf2385a.jpeg",
+      "PackagePath": "staticwebassets\\files\\Images\\2c81be3d-8e58-4f12-b6a7-b51cf4cf2385a.jpeg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\8e954c92-545c-4a3b-897b-6f8486afb250IMG_20180525_171807279.jpg",
-      "PackagePath": "staticwebassets\\files\\Images\\8e954c92-545c-4a3b-897b-6f8486afb250IMG_20180525_171807279.jpg"
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\5a1a4155-dcd9-4e57-95c6-19fa967be7e6a.jpeg",
+      "PackagePath": "staticwebassets\\files\\Images\\5a1a4155-dcd9-4e57-95c6-19fa967be7e6a.jpeg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\a7b6d4f9-982c-4b87-b7fb-657430e84b89IMG_20180525_224501648.jpg",
-      "PackagePath": "staticwebassets\\files\\Images\\a7b6d4f9-982c-4b87-b7fb-657430e84b89IMG_20180525_224501648.jpg"
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\78d7ab12-a72b-45a9-9c98-138f28642dfdIMG_٢٠١٨٠٧٢٠_٢٢٢٨١٩٩٦٥.jpg",
+      "PackagePath": "staticwebassets\\files\\Images\\78d7ab12-a72b-45a9-9c98-138f28642dfdIMG_٢٠١٨٠٧٢٠_٢٢٢٨١٩٩٦٥.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\8e6d4932-a9cb-4bd5-bad7-404caca45c65تنزيل.jpg",
+      "PackagePath": "staticwebassets\\files\\Images\\8e6d4932-a9cb-4bd5-bad7-404caca45c65تنزيل.jpg"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\js\\site.js",
@@ -8431,6 +8435,38 @@
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\lib\\datatables\\css\\datatables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\datatables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\lib\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\lib\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\lib\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\lib\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\lib\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\lib\\datatables\\js\\datatables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\datatables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\lib\\datatables\\js\\jquery.datatables.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\jquery.datatables.min.js"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
