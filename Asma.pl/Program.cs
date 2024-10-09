@@ -1,6 +1,9 @@
-using Asma.pl.Data;
+using Asma.DAL.Data;
+using Asmaa.Pl.mapping;
+using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace Asma.pl
 {
@@ -19,6 +22,7 @@ namespace Asma.pl
 			builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
 				.AddEntityFrameworkStores<ApplicationDbContext>();
 			builder.Services.AddControllersWithViews();
+			builder.Services.AddAutoMapper(Assembly.GetAssembly(typeof(MappingProfile)));
 
 			var app = builder.Build();
 

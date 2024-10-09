@@ -8229,6 +8229,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\1a310fca-5077-4b3c-bc02-b94a0b8755e7IMG_20180608_204819399.jpg",
+      "PackagePath": "staticwebassets\\files\\Images\\1a310fca-5077-4b3c-bc02-b94a0b8755e7IMG_20180608_204819399.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\21bfe728-a972-4697-ab0d-86acb190dd7aIMG_20180608_204819399.jpg",
+      "PackagePath": "staticwebassets\\files\\Images\\21bfe728-a972-4697-ab0d-86acb190dd7aIMG_20180608_204819399.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\78248485-5069-46ce-a173-d64e79fb9c9cIMG_20180608_191939123.mp4",
+      "PackagePath": "staticwebassets\\files\\Images\\78248485-5069-46ce-a173-d64e79fb9c9cIMG_20180608_191939123.mp4"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\8e954c92-545c-4a3b-897b-6f8486afb250IMG_20180525_171807279.jpg",
+      "PackagePath": "staticwebassets\\files\\Images\\8e954c92-545c-4a3b-897b-6f8486afb250IMG_20180525_171807279.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\a7b6d4f9-982c-4b87-b7fb-657430e84b89IMG_20180525_224501648.jpg",
+      "PackagePath": "staticwebassets\\files\\Images\\a7b6d4f9-982c-4b87-b7fb-657430e84b89IMG_20180525_224501648.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

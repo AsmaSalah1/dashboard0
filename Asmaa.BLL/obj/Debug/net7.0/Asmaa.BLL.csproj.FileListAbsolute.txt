@@ -13,3 +13,4 @@ C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.BLL\obj\Debug\net7.0\Asmaa.BLL.dl
 C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.BLL\obj\Debug\net7.0\refint\Asmaa.BLL.dll
 C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.BLL\obj\Debug\net7.0\Asmaa.BLL.pdb
 C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.BLL\obj\Debug\net7.0\ref\Asmaa.BLL.dll
+C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.BLL\obj\Debug\net7.0\Asmaa.BLL.sourcelink.json

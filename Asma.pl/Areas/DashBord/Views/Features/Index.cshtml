@@ -1,0 +1,51 @@
+﻿@model IEnumerable<FeatureIndexVM>
+@section header{
+	Features
+}
+
+</div>
+<div class="col-md-12">
+    <div class="card card-info">
+        <div class="card-header">
+            <h3 class="card-title">All Features</h3>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+
+                        <th>Name</th>
+                        <th>Description</th>
+                     
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var itme in Model)
+                    {
+                        <tr>
+                            <td>@itme.Name</td>
+                           <td>@itme.Description</td>
+                            <td>
+                                <partial name="_buttonsPV" for="@itme.Id" />
+                            </td>
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card-footer clearfix">
+            <ul class="pagination pagination-sm m-0 float-right">
+                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">»</a></li>
+            </ul>
+        </div>
+    </div>
+    <a asp-controller="Features" asp-action="Create" class="btn btn-primary">Create</a>
+</div>

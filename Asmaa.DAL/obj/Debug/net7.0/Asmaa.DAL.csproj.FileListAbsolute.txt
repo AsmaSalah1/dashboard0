@@ -9,3 +9,7 @@ C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.DAL\obj\Debug\net7.0\Asmaa.DAL.dl
 C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.DAL\obj\Debug\net7.0\refint\Asmaa.DAL.dll
 C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.DAL\obj\Debug\net7.0\Asmaa.DAL.pdb
 C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.DAL\obj\Debug\net7.0\ref\Asmaa.DAL.dll
+C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.DAL\obj\Debug\net7.0\Asmaa.DAL.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.DAL\obj\Debug\net7.0\Asmaa.DAL.sourcelink.json
+C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.DAL\bin\Debug\net7.0\Asmaa.DAL.runtimeconfig.json
+C:\Users\user\Desktop\asp\seesion1\Asmaa\Asmaa.DAL\obj\Debug\net7.0\Asmaa.DAL.genruntimeconfig.cache

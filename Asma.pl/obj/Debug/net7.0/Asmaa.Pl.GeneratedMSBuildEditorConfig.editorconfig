@@ -22,6 +22,38 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaEJvcmRcVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/user/Desktop/asp/seesion1/Asmaa/Asma.pl/Areas/DashBord/Views/Features/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaEJvcmRcVmlld3NcRmVhdHVyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/asp/seesion1/Asmaa/Asma.pl/Areas/DashBord/Views/Features/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaEJvcmRcVmlld3NcRmVhdHVyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/asp/seesion1/Asmaa/Asma.pl/Areas/DashBord/Views/LastProduct/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaEJvcmRcVmlld3NcTGFzdFByb2R1Y3RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/asp/seesion1/Asmaa/Asma.pl/Areas/DashBord/Views/LastProduct/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaEJvcmRcVmlld3NcTGFzdFByb2R1Y3RcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/asp/seesion1/Asmaa/Asma.pl/Areas/DashBord/Views/LastProduct/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaEJvcmRcVmlld3NcTGFzdFByb2R1Y3RcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/asp/seesion1/Asmaa/Asma.pl/Areas/DashBord/Views/LastProduct/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaEJvcmRcVmlld3NcTGFzdFByb2R1Y3RcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/asp/seesion1/Asmaa/Asma.pl/Areas/DashBord/Views/LastProduct/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaEJvcmRcVmlld3NcTGFzdFByb2R1Y3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/asp/seesion1/Asmaa/Asma.pl/Areas/DashBord/Views/Shared/_buttonsPV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaEJvcmRcVmlld3NcU2hhcmVkXF9idXR0b25zUFYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/user/Desktop/asp/seesion1/Asmaa/Asma.pl/Areas/DashBord/Views/Shared/_head.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaEJvcmRcVmlld3NcU2hhcmVkXF9oZWFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -9,15 +9,38 @@
       "Asmaa.Pl/1.0.0": {
         "dependencies": {
           "Asmaa.BLL": "1.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.17",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.17",
           "Microsoft.AspNetCore.Identity.UI": "7.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.17",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.17",
+          "Microsoft.EntityFrameworkCore.Design": "7.0.17",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.12"
         },
         "runtime": {
           "Asmaa.Pl.dll": {}
+        }
+      },
+      "AutoMapper/9.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
         }
       },
       "Azure.Core/1.35.0": {
@@ -1265,11 +1288,6 @@
             "assemblyVersion": "7.0.17.0",
             "fileVersion": "7.0.1724.11506"
           }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/7.0.17": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "7.0.17"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
@@ -2612,12 +2630,22 @@
           "Asmaa.DAL": "1.0.0"
         },
         "runtime": {
-          "Asmaa.BLL.dll": {}
+          "Asmaa.BLL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Asmaa.DAL/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.17"
+        },
         "runtime": {
-          "Asmaa.DAL.dll": {}
+          "Asmaa.DAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -2627,6 +2655,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
+      "path": "automapper/9.0.0",
+      "hashPath": "automapper.9.0.0.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-szI4yeRIM7GWe9JyekW0dKYehPB0t6M+I55fPeCebN6PhS7zQZa0eG3bgOnOx+eP3caSNoE7KEJs2rk7MLsh8w==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512"
     },
     "Azure.Core/1.35.0": {
       "type": "package",
@@ -3208,13 +3250,6 @@
       "sha512": "sha512-GVEe9+EI3dcPhdXbprYtqmECi2ZVt37U+rjRbIyehoAVtTVAG89sIsz4PcuyfQjnsNvmPFKwToOJteQeSwCj9w==",
       "path": "microsoft.entityframeworkcore.sqlserver/7.0.17",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.7.0.17.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Tools/7.0.17": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/2BQZU0aALScLFrQE4omnjB84/+8BFViTAHRlL36Mu8M5XurjxqESsDOcZvRJnB/GecQH219Dt+mJHjGjh82qg==",
-      "path": "microsoft.entityframeworkcore.tools/7.0.17",
-      "hashPath": "microsoft.entityframeworkcore.tools.7.0.17.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "type": "package",

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<LastProductIndexVM>
+
+
+@section header {
+    Index
+}
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">All Product</h3>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                    
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Picture</th>
+                        <th>Is DEleted?</th>
+                        <th>Oparetors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var itme in Model)
+                    {
+                        <tr>
+                            <td>@itme.Name</td>
+                            <td>
+                                @itme.Price
+                            </td>
+                            <td>
+                                <img src="~/files/Images/@itme.ImageName" class="img " width="100px" height="100px"/>
+                            </td>
+                            <td><span class="badge @(itme.IsDeleted ? "bg-danger" : "bg-success")">@(itme.IsDeleted ? "Deleted" : "Active")</span></td>
+                            <td>
+                                <partial name="_buttonsPV" for="@itme.Id" />
+                                <a asp-controller="Features" asp-action="Index">esfdwe</a>
+                            </td>
+                        </tr>
+                    }
+                    
+                  
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card-footer clearfix">
+            <ul class="pagination pagination-sm m-0 float-right">
+                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">»</a></li>
+            </ul>
+        </div>
+    </div>
+    <a asp-controller="LastProduct" asp-action="Create" class="btn btn-primary">Create</a>
+</div>

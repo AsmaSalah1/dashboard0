@@ -1,0 +1,59 @@
+﻿@model Asmaa.Pl.Areas.DashBord.ViewModels.FeaturesVM.FeaturesCreateVM
+
+
+<div class="col-md-6">
+
+<div class="card card-primary">
+<div class="card-header">
+            <h3 class="card-title"> Create Features</h3>
+</div>
+
+
+<form asp-action="Create">
+<div class="card-body">
+<div class="form-group">
+<label asp-for="Name">Feature name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter Name">
+</div>
+
+                <div class="form-group">
+                    <label asp-for="Description">Description</label>
+                    <textarea  asp-for="Description" class="form-control" placeholder="Enter Name"></textarea>
+                </div>
+
+</div>
+
+<div class="card-footer">
+<button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
+</div>
+
+</div>
+
+@* <div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+ *@
