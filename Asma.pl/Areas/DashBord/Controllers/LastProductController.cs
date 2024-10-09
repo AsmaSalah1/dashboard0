@@ -4,6 +4,7 @@ using Asmaa.Pl.Areas.DashBord.ViewModels;
 using Asmaa.Pl.Helper;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 using Microsoft.EntityFrameworkCore;
 
 namespace Asmaa.Pl.Areas.DashBord.Controllers
@@ -95,30 +96,31 @@ namespace Asmaa.Pl.Areas.DashBord.Controllers
                 }
 
                 // رفع الصورة الجديدة وتخزين اسم الملف
-                model.ImageName = FileHelper.UplodeFile(VM.Image, "Images");
+                VM.ImageName = FileHelper.UplodeFile(VM.Image, "Images");
             }
             mapper.Map(VM,model); //نفس الي تحتها
 /*            var conv = mapper.Map<LastProduct>(VM);
 */            dbContext.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
-        [HttpGet]
-        public IActionResult Delete(int? id)
-        {
-            if (id is null)
-            {
-                return BadRequest();
-            }
-            var prodects = dbContext.LastProducts.Find(id);
-            if (prodects is null)
-            {
-                return NotFound();
-            }
-            var m=mapper.Map< LastProductIndexVM >(prodects);
-            return View(m);
-        }
-        [HttpPost,ActionName("Delete")]//عشان ما يجيب ايرور لانه الاكشن الي فوق كمان نفس الاسم و البراميتر
-        [ValidateAntiForgeryToken]
+        //[HttpGet]
+        //public IActionResult Delete(int? id)
+        //{
+        //    if (id is null)
+        //    {
+        //        return BadRequest();
+        //    }
+        //    var prodects = dbContext.LastProducts.Find(id);
+        //    if (prodects is null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    var m=mapper.Map< LastProductIndexVM >(prodects);
+        //    return View(m);
+        //}
+        //[HttpPost,ActionName("Delete")]//عشان ما يجيب ايرور لانه الاكشن الي فوق كمان نفس الاسم و البراميتر
+        [HttpPost]
+       // [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirm(int id)
         {
             var prodects =dbContext.LastProducts.Find(id);
@@ -130,7 +132,9 @@ namespace Asmaa.Pl.Areas.DashBord.Controllers
             FileHelper.DeleteFile(prodects.ImageName, "Images");
             dbContext.LastProducts.Remove(prodects);
             dbContext.SaveChanges();
-            return RedirectToAction(nameof(Index));
+            return Ok(new {message="Product deleted"});
+            //لو حطيت اوك لحالها برجع رقم 200 وانا بدي ارجع جيسون فبجط مسج
+            //هاي المسج رد الباك ايند
         }
 
 

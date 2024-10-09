@@ -1,0 +1,28 @@
+﻿body {
+}
+.buttons-pdf {
+    background-color: aqua; /* لون الخلفية */
+    color: red; /* لون النص */
+    border-radius: 5px; /* زوايا دائرية */
+    border: none; /* إزالة الحدود */
+    padding: 10px 20px; /* تعديل الحواف الداخلية */
+}
+
+.buttons-copy .buttons-html5 .dt-button {
+    background-color: black; /* لون الخلفية */
+    color: red;
+}
+/* تغيير لون زر الطباعة */
+.buttons-print {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+
+    /* تغيير مظهر عند تمرير الماوس */
+    .buttons-pdf:hover, .buttons-print:hover {
+        background-color: #e64a19;
+    }
+
