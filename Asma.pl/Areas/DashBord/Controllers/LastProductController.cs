@@ -34,17 +34,21 @@ namespace Asmaa.Pl.Areas.DashBord.Controllers
             return View();
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Create(LastProductCreateVM model)//نوع الداتا الي عندي فيو موديل وانا بضيف ع الداتا بيس نوع غير
+      //  [ValidateAntiForgeryToken]
+
+        public IActionResult Create([FromForm] LastProductCreateVM model)//نوع الداتا الي عندي فيو موديل وانا بضيف ع الداتا بيس نوع غير
         {
             if (!ModelState.IsValid)
             {
-                return View(model);
+              return View(model);
+          //  return Json(new { success = false, message = "البيانات غير صالحة", errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage) });
+
             }
             model.ImageName = FileHelper.UplodeFile(model.Image, "Images");
             var m = mapper.Map<LastProduct>(model);
             dbContext.Add(m);
             dbContext.SaveChanges();
+           //return Json(new { success = true, message = "تم إنشاء المنتج بنجاح!" }); 
             return RedirectToAction(nameof(Index));
         }
         [HttpGet]
@@ -80,12 +84,12 @@ namespace Asmaa.Pl.Areas.DashBord.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(LastProductCreateVM VM)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(VM);
-            }
-            var model = dbContext.LastProducts.Find(VM.Id);
 
+            var model = dbContext.LastProducts.Find(VM.Id);
+            if(model is null)
+            {
+                return NotFound();
+            }
             if (VM.Image != null)
             {
                 // حذف الصورة القديمة إذا كانت موجودة
@@ -94,9 +98,18 @@ namespace Asmaa.Pl.Areas.DashBord.Controllers
                     FileHelper.DeleteFile(model.ImageName, "Images");
 
                 }
-
                 // رفع الصورة الجديدة وتخزين اسم الملف
                 VM.ImageName = FileHelper.UplodeFile(VM.Image, "Images");
+            }
+            else//لما ما نغير ع الصورة 
+            {
+                // إذا لم يتم رفع صورة جديدة، الحفاظ على الصورة القديمة
+                VM.ImageName = model.ImageName;//مش ضروري احطها لانه بالماب بتنعمل
+                ModelState.Remove("Image");//ما تعمل فاليديشين للصورة 
+            }
+            if (!ModelState.IsValid)
+            {
+                return View(VM);
             }
             mapper.Map(VM,model); //نفس الي تحتها
 /*            var conv = mapper.Map<LastProduct>(VM);

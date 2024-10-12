@@ -5,6 +5,7 @@ using Asmaa.Pl.Areas.DashBord.ViewModels.FeaturesVM;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Web;
 
 namespace Asmaa.Pl.Areas.DashBord.Controllers
 {
@@ -35,10 +36,13 @@ namespace Asmaa.Pl.Areas.DashBord.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(FeaturesCreateVM model)//نوع الداتا الي عندي فيو موديل وانا بضيف ع الداتا بيس نوع غير
         {
+            model.Description = HttpUtility.HtmlDecode(model.Description);
+
             if (!ModelState.IsValid)
             {
                 return View(model);
             }
+
             var m = mapper.Map<Feature>(model);
             dbContext.Add(m);
             dbContext.SaveChanges();

@@ -25,15 +25,31 @@
                         <input asp-for="Price" class="form-control" placeholder="Price" />
                     </div>
                 </div>
-                    <div class="form-group row">
-                        <label asp-for="Image" class="col-sm-2 col-form-label"></label>
-                    <img src="~/files/Images/@Model.ImageName" class="img " width="100px" height="100px" />
+                 @*      <div class="form-group row">
+                          <label asp-for="Image" class="col-sm-2 col-form-label"></label>
+                      <img src="~/files/Images/@Model.ImageName" class="img " width="100px" height="100px" />
+                      <div class="col-sm-10">
+                          <input value="~/files/Images/@Model.ImageName" asp-for="Image" class="form-control" />
+                      </div>
+                          </div> *@
+                <!-- عرض الصورة القديمة -->
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Current Image</label>
                     <div class="col-sm-10">
-                        <input asp-for="Image" class="form-control" />
+                        <img src="~/files/Images/@Model.ImageName" class="img" width="100px" height="100px" />
                     </div>
-                        </div>
-
-                    <div class="form-group ">
+                </div>
+                <!-- حقل مخفي يحتوي على مسار الصورة القديمة -->
+                <!-- عشان اذا عدلت مثلا بس الديسكربشن رح يرسل الصورة نال و يجيب ايرور ف لازم ارسل الصورة القديمة -->
+                <input type="hidden" asp-for="ImageName" />
+                <!-- رفع صورة جديدة -->
+                <div class="form-group row">
+                    <label asp-for="Image" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Image" type="file" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group ">
                         <label asp-for="IsDeleted">@(Model.IsDeleted ? "Delete" : "Active") </label>
                             <input asp-for="IsDeleted"/>
                 </div>

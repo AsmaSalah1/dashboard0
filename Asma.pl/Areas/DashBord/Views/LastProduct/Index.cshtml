@@ -38,7 +38,7 @@
                         <tr>
                             <td>@itme.Name</td>
                             <td>
-                                @itme.Price
+                                @itme.Price <span>$</span>
                             </td>
                             <td>
                                 <img src="~/files/Images/@itme.ImageName" class="img " width="100px" height="100px"/>
@@ -80,18 +80,33 @@
     <!-- مكتبات pdfmake لتصدير PDF -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
-    <!-- SweetAlert JS -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script>
   
         $(document).ready(function () {
             $('table').DataTable({
-                dom: 'Bfrtip',
-                buttons: [
-                    'copy', 'excel', 'pdf', 'print'//عشان اقدر اطبعهن 
-                ]
+                 dom: 'Bfrtip',
+                // buttons: [
+                //     'copy', 'excel', 'pdf', 'print'عشان اقدر اطبعهن 
+                // ]
+                layout: {
+                    topStart: {
+                        buttons: [
+                            'copy', 'excel', 'pdf'
+                        ]
+                    }
+                }
             });
         });
+        // new DataTable('table', {
+        //     layout: {
+        //         topStart: {
+        //             buttons: [
+        //                 'copy', 'excel', 'pdf'
+        //             ]
+        //         }
+        //     }
+        // });
         // إضافة تأكيد الحذف على زر Delete
         // $('.delete_btn').on('click', function (e) {
         //     e.preventDefault(); إيقاف تنفيذ الرابط مؤقتًا

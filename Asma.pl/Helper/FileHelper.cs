@@ -11,8 +11,10 @@
             */
             string fileName = $"{Guid.NewGuid()}{file.FileName}";
             string filePath=Path.Combine(floderPath,fileName);
-            var fileStream=new FileStream(filePath,FileMode.Create);
+            using (var fileStream = new FileStream(filePath, FileMode.Create))
+            {
             file.CopyTo(fileStream);
+            }
             return fileName;
         
         }

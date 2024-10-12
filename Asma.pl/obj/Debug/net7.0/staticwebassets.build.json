@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ef/0Z7bDoC7Tqp7bjO/tAMJ6isHcIGZORJaSz+tg/bQ=",
+  "Hash": "UOuCYDtBvEDbDEnbyF5fEtdfqd9fXi5V0gK5+Ia3knE=",
   "Source": "Asmaa.Pl",
   "BasePath": "_content/Asmaa.Pl",
   "Mode": "Default",
@@ -40278,12 +40278,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\0655de7a-d8dd-499e-989b-427fa0f940c2429966789_795926732573730_2441407595161295240_n.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\138f16e1-6cab-4826-9105-fc1fdca909dbScreenshot_٢٠٢٢-٠٨-٢٤-١١-٤٠-٤٥-٩٤٧_com.miui.gallery.jpg",
       "SourceId": "Asmaa.Pl",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\",
       "BasePath": "_content/Asmaa.Pl",
-      "RelativePath": "files/Images/0655de7a-d8dd-499e-989b-427fa0f940c2429966789_795926732573730_2441407595161295240_n.jpg",
+      "RelativePath": "files/Images/138f16e1-6cab-4826-9105-fc1fdca909dbScreenshot_٢٠٢٢-٠٨-٢٤-١١-٤٠-٤٥-٩٤٧_com.miui.gallery.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40294,45 +40294,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\Images\\0655de7a-d8dd-499e-989b-427fa0f940c2429966789_795926732573730_2441407595161295240_n.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\1a310fca-5077-4b3c-bc02-b94a0b8755e7IMG_20180608_204819399.jpg",
-      "SourceId": "Asmaa.Pl",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\",
-      "BasePath": "_content/Asmaa.Pl",
-      "RelativePath": "files/Images/1a310fca-5077-4b3c-bc02-b94a0b8755e7IMG_20180608_204819399.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\Images\\1a310fca-5077-4b3c-bc02-b94a0b8755e7IMG_20180608_204819399.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\21bfe728-a972-4697-ab0d-86acb190dd7aIMG_20180608_204819399.jpg",
-      "SourceId": "Asmaa.Pl",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\",
-      "BasePath": "_content/Asmaa.Pl",
-      "RelativePath": "files/Images/21bfe728-a972-4697-ab0d-86acb190dd7aIMG_20180608_204819399.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\Images\\21bfe728-a972-4697-ab0d-86acb190dd7aIMG_20180608_204819399.jpg"
+      "OriginalItemSpec": "wwwroot\\files\\Images\\138f16e1-6cab-4826-9105-fc1fdca909dbScreenshot_٢٠٢٢-٠٨-٢٤-١١-٤٠-٤٥-٩٤٧_com.miui.gallery.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\5a1a4155-dcd9-4e57-95c6-19fa967be7e6a.jpeg",
@@ -40354,12 +40316,12 @@
       "OriginalItemSpec": "wwwroot\\files\\Images\\5a1a4155-dcd9-4e57-95c6-19fa967be7e6a.jpeg"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\8e6d4932-a9cb-4bd5-bad7-404caca45c65تنزيل.jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\63bf048c-a09c-4281-bbe3-3811cdd8a855a.jpeg",
       "SourceId": "Asmaa.Pl",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\",
       "BasePath": "_content/Asmaa.Pl",
-      "RelativePath": "files/Images/8e6d4932-a9cb-4bd5-bad7-404caca45c65تنزيل.jpg",
+      "RelativePath": "files/Images/63bf048c-a09c-4281-bbe3-3811cdd8a855a.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40370,15 +40332,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\Images\\8e6d4932-a9cb-4bd5-bad7-404caca45c65تنزيل.jpg"
+      "OriginalItemSpec": "wwwroot\\files\\Images\\63bf048c-a09c-4281-bbe3-3811cdd8a855a.jpeg"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\a23a41ac-8372-4f66-a8d3-9bd49d2fba1dScreenshot_٢٠٢٢-٠٧-١٧-٠١-٥٨-٢٣-٣٠٦_com.whatsapp (1).jpg",
+      "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\6ad28455-9065-4b9e-aac3-91cb7a12d38abook ex.PNG",
       "SourceId": "Asmaa.Pl",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\",
       "BasePath": "_content/Asmaa.Pl",
-      "RelativePath": "files/Images/a23a41ac-8372-4f66-a8d3-9bd49d2fba1dScreenshot_٢٠٢٢-٠٧-١٧-٠١-٥٨-٢٣-٣٠٦_com.whatsapp (1).jpg",
+      "RelativePath": "files/Images/6ad28455-9065-4b9e-aac3-91cb7a12d38abook ex.PNG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40389,7 +40351,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\Images\\a23a41ac-8372-4f66-a8d3-9bd49d2fba1dScreenshot_٢٠٢٢-٠٧-١٧-٠١-٥٨-٢٣-٣٠٦_com.whatsapp (1).jpg"
+      "OriginalItemSpec": "wwwroot\\files\\Images\\6ad28455-9065-4b9e-aac3-91cb7a12d38abook ex.PNG"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\b63b0b0c-aaa0-4927-9c78-8f284d9438ffa.jpeg",
@@ -40409,6 +40371,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\Images\\b63b0b0c-aaa0-4927-9c78-8f284d9438ffa.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\deb33913-ab63-4918-b439-a99311cd5f1eتنزيل.jpg",
+      "SourceId": "Asmaa.Pl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\",
+      "BasePath": "_content/Asmaa.Pl",
+      "RelativePath": "files/Images/deb33913-ab63-4918-b439-a99311cd5f1eتنزيل.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Images\\deb33913-ab63-4918-b439-a99311cd5f1eتنزيل.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\fea601ee-dc45-4b55-aec5-7ef5c4a54b1f429966789_795926732573730_2441407595161295240_n.jpg",
+      "SourceId": "Asmaa.Pl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\",
+      "BasePath": "_content/Asmaa.Pl",
+      "RelativePath": "files/Images/fea601ee-dc45-4b55-aec5-7ef5c4a54b1f429966789_795926732573730_2441407595161295240_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Images\\fea601ee-dc45-4b55-aec5-7ef5c4a54b1f429966789_795926732573730_2441407595161295240_n.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\js\\site.js",
