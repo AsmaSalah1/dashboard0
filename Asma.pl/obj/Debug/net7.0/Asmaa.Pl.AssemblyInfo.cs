@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asmaa.Pl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf430441f553b13657002e8221f70889a655f2f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2676102f616b85e11e0ae3e21445624d5746c849")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asmaa.Pl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asmaa.Pl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

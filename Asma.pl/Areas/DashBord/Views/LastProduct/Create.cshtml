@@ -50,41 +50,7 @@
 </div>
  @section scriptes {
 <script>
-        const createButton = document.querySelector(".create");
-
-        createButton.addEventListener("click", async (e) => {
-            e.preventDefault();
-            const formData = new FormData();
-            const imageInput = document.querySelector(".imageInput");
-            const file = imageInput.files[0];
-
-            if (file) {
-                formData.append("Image", file); // Append the image file
-            }
-
-            formData.append("Name", document.querySelector("input[name='Name']").value);
-            formData.append("Price", document.querySelector("input[name='Price']").value);
-            try {
-                
-                const response = await fetch("https://localhost:7208/DashBord/LastProduct/Create", {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: FormData,
-                });
-                const result = await response.json(); //نحاول تحليل الرد كـ JSON
-                if (response.ok && result.success) {
-                    toastr.success(result.message);
-                } else {
-                    console.error("أخطاء في البيانات:", result.errors);
-                    toastr.error(result.message || "حدث خطأ أثناء إنشاء المنتج.");
-                }
-            } catch (error) {
-                console.error("خطأ في الاتصال:", error);
-                toastr.error("حدث خطأ في الاتصال بالخادم.");
-            }
-        });
+        
     const imageInput = document.querySelector(".imageInput");
         imageInput.addEventListener("change", (event) => {
             const file = event.target.files[0]; @*بعطيني عدة معلومات عن الصورة مثل : 
@@ -105,4 +71,38 @@
 </script>
  }
 
-  
+@*   const createButton = document.querySelector(".create");
+
+        createButton.addEventListener("click", async (e) => {
+            e.preventDefault();
+            const formData = new FormData();
+            const imageInput = document.querySelector(".imageInput");
+            const file = imageInput.files[0];
+
+            if (file) {
+                formData.append("Image", file); // Append the image file
+            }
+
+            formData.append("Name", document.querySelector("input[name='Name']").value);
+            formData.append("Price", document.querySelector("input[name='Price']").value);
+            try {
+
+                const response = await fetch("https://localhost:7208/DashBord/LastProduct/Create", {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: FormData,
+                });
+                const result = await response.json(); //نحاول تحليل الرد كـ JSON
+                if (response.ok && result.success) {
+                    toastr.success(result.message);
+                } else {
+                    console.error("أخطاء في البيانات:", result.errors);
+                    toastr.error(result.message || "حدث خطأ أثناء إنشاء المنتج.");
+                }
+            } catch (error) {
+                console.error("خطأ في الاتصال:", error);
+                toastr.error("حدث خطأ في الاتصال بالخادم.");
+            }
+        }); *@

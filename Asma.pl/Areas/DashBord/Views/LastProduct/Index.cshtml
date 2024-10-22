@@ -60,10 +60,7 @@
     <a asp-controller="LastProduct" asp-action="Create" class="btn btn-primary">Create</a>
 </div>
 @section scriptes{
-	@* <script src="~/lib/datatables/js/datatables.bootstrap4.min.js"></script>
-	<script src="~/lib/datatables/js/jquery.datatables.min.js"></script> *@
-@*     <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
- *@   
+	 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- DataTables الأساسية -->
@@ -86,9 +83,7 @@
         $(document).ready(function () {
             $('table').DataTable({
                  dom: 'Bfrtip',
-                // buttons: [
-                //     'copy', 'excel', 'pdf', 'print'عشان اقدر اطبعهن 
-                // ]
+              
                 layout: {
                     topStart: {
                         buttons: [
@@ -98,21 +93,6 @@
                 }
             });
         });
-        // new DataTable('table', {
-        //     layout: {
-        //         topStart: {
-        //             buttons: [
-        //                 'copy', 'excel', 'pdf'
-        //             ]
-        //         }
-        //     }
-        // });
-        // إضافة تأكيد الحذف على زر Delete
-        // $('.delete_btn').on('click', function (e) {
-        //     e.preventDefault(); إيقاف تنفيذ الرابط مؤقتًا
-        //     console.log("ddd");
-
-        // });
 
         const d = document.querySelectorAll(".delete_btn");
         d.forEach(function (button) {

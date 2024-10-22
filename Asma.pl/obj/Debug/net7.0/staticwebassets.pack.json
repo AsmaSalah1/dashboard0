@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets\\Asmaa.Pl.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\css\\StyleSheet.css",
-      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\css\\web\\Auth.css",
+      "PackagePath": "staticwebassets\\css\\web\\Auth.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\css\\web\\register.PNG",
+      "PackagePath": "staticwebassets\\css\\web\\register.PNG"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\css\\web\\signinimage.jpg",
+      "PackagePath": "staticwebassets\\css\\web\\signinimage.jpg"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\dashBorad\\css\\adminlte.css",
@@ -8233,8 +8249,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\138f16e1-6cab-4826-9105-fc1fdca909dbScreenshot_٢٠٢٢-٠٨-٢٤-١١-٤٠-٤٥-٩٤٧_com.miui.gallery.jpg",
-      "PackagePath": "staticwebassets\\files\\Images\\138f16e1-6cab-4826-9105-fc1fdca909dbScreenshot_٢٠٢٢-٠٨-٢٤-١١-٤٠-٤٥-٩٤٧_com.miui.gallery.jpg"
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\1d0f3305-167b-4e03-ad70-0fc37275bc30429966789_795926732573730_2441407595161295240_n.jpg",
+      "PackagePath": "staticwebassets\\files\\Images\\1d0f3305-167b-4e03-ad70-0fc37275bc30429966789_795926732573730_2441407595161295240_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\384b67ea-90d0-49ab-a83e-7a1714e5746bfrontend with react certificate-17.png",
+      "PackagePath": "staticwebassets\\files\\Images\\384b67ea-90d0-49ab-a83e-7a1714e5746bfrontend with react certificate-17.png"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\5a1a4155-dcd9-4e57-95c6-19fa967be7e6a.jpeg",
@@ -8249,8 +8269,24 @@
       "PackagePath": "staticwebassets\\files\\Images\\6ad28455-9065-4b9e-aac3-91cb7a12d38abook ex.PNG"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\9f3bd911-e4f7-4316-8563-95c87843349efrontend with react certificate-17.png",
+      "PackagePath": "staticwebassets\\files\\Images\\9f3bd911-e4f7-4316-8563-95c87843349efrontend with react certificate-17.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\a125eecb-642d-4484-a7d3-803c044c325ca.jpeg",
+      "PackagePath": "staticwebassets\\files\\Images\\a125eecb-642d-4484-a7d3-803c044c325ca.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\a4fc5d1b-b888-44e7-ae2d-23c79dc81581تنزيل.jpg",
+      "PackagePath": "staticwebassets\\files\\Images\\a4fc5d1b-b888-44e7-ae2d-23c79dc81581تنزيل.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\b63b0b0c-aaa0-4927-9c78-8f284d9438ffa.jpeg",
       "PackagePath": "staticwebassets\\files\\Images\\b63b0b0c-aaa0-4927-9c78-8f284d9438ffa.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\d72cbbf4-a804-4228-b7be-8fe471a4ac91frontend with react certificate-17.png",
+      "PackagePath": "staticwebassets\\files\\Images\\d72cbbf4-a804-4228-b7be-8fe471a4ac91frontend with react certificate-17.png"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\deb33913-ab63-4918-b439-a99311cd5f1eتنزيل.jpg",

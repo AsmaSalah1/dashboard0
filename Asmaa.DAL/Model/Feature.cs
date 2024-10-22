@@ -13,6 +13,7 @@ namespace Asmaa.DAL.Model
         public string Description { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime CreatedAt { get; set; }
+        public string? ImageName { get; set; }
 
     }
 }

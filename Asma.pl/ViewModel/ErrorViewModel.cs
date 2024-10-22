@@ -1,4 +1,4 @@
-namespace Asma.pl.Models
+namespace Asma.pl.ViewModel
 {
 	public class ErrorViewModel
 	{

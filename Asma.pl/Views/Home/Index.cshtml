@@ -1,8 +1,60 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<LastProductIndexVM>
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+@* <body>
+    <section class="shop_section layout_padding">
+        <div class="container">
+            <div class="heading_container heading_center">
+                <h2>
+                    Latest Products
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        @foreach (var p in ViewBag.Products)
+                        {
+                            <div class="box">
+
+                                <a href="">
+                                    <div class="img-box">
+                                        <img src="@p.ImageName" alt="">
+                                    </div>
+                                    <div class="detail-box">
+                                        <h6>
+                                            @p.Name
+                                        </h6>
+                                        <h6>
+                                            Price
+                                            <span>
+                                                @p.Price
+                                            </span>
+                                        </h6>
+                                    </div>
+                                    <div class="new">
+                                        <span>
+                                            New
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+
+                        }
+                    </div>
+                </div>
+             
+            </div>
+            <div class="btn-box">
+                <a href="">
+                    View All Products
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+ *@

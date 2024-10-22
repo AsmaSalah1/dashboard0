@@ -3,12 +3,15 @@ using Asmaa.DAL.Model;
 using Asmaa.Pl.Areas.DashBord.ViewModels;
 using Asmaa.Pl.Helper;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 using Microsoft.EntityFrameworkCore;
 
 namespace Asmaa.Pl.Areas.DashBord.Controllers
 {
+    
+    [Authorize(Roles ="Admin,SuperAdmin")]
     [Area("DashBord")]
     public class LastProductController : Controller
     {

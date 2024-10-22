@@ -1,8 +1,10 @@
 using Asma.DAL.Data;
+using Asmaa.DAL.Model;
 using Asmaa.Pl.mapping;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
 namespace Asma.pl
@@ -17,11 +19,15 @@ namespace Asma.pl
 			var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 			builder.Services.AddDbContext<ApplicationDbContext>(options =>
 				options.UseSqlServer(connectionString));
+
 			builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-			builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-				.AddEntityFrameworkStores<ApplicationDbContext>();
-			builder.Services.AddControllersWithViews();
+			builder.Services.AddIdentity<ApplicationUser, IdentityRole>
+				(options => options.SignIn.RequireConfirmedAccount = true)//ممنوع اي حدا يعمل تسجيل دخول ع المشروع الا يكون عامل حساب و تاكيد للحساب
+				.AddEntityFrameworkStores<ApplicationDbContext>()
+				.AddDefaultUI()   //بحطها لاني استعملت الاد ايدينتتي
+				.AddDefaultTokenProviders();//عشان اعمل الفورجيت باسوورد 
+				builder.Services.AddControllersWithViews();
 			builder.Services.AddAutoMapper(Assembly.GetAssembly(typeof(MappingProfile)));
 
 			var app = builder.Build();
