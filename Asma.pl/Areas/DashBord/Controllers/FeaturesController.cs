@@ -4,6 +4,7 @@ using Asmaa.Pl.Areas.DashBord.ViewModels;
 using Asmaa.Pl.Areas.DashBord.ViewModels.FeaturesVM;
 using Asmaa.Pl.Helper;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Web;
@@ -11,6 +12,7 @@ using System.Web;
 namespace Asmaa.Pl.Areas.DashBord.Controllers
 {
     [Area("DashBord")]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class FeaturesController : Controller
     {
         private readonly ApplicationDbContext dbContext;

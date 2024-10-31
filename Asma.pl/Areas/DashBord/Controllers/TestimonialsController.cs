@@ -6,10 +6,13 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Asmaa.Pl.Areas.DashBord.ViewModels.TestimonalVM;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Asmaa.Pl.Areas.DashBord.Controllers
 {
     [Area("DashBord")]
+    [Authorize(Roles = "Admin,SuperAdmin")]
+
     public class TestimonialsController : Controller
     {
     

@@ -17,7 +17,7 @@ namespace Asma.pl.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.17")
+                .HasAnnotation("ProductVersion", "7.0.20")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -92,49 +92,49 @@ namespace Asma.pl.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "58aac1ad-91b2-4480-bef7-4afaecd43ebc",
+                            Id = "9df0e160-cf41-4219-a3d1-1f7c22c2fef1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "607be02f-fa32-4ce5-a7c4-d3a549ea39d4",
+                            ConcurrencyStamp = "cb9d2e6e-f0ac-4480-9fd0-4aea911500db",
                             Email = "user@comp.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@COMP.COM",
                             NormalizedUserName = "User@COMP.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGs9R+FrCGf9aXJ6qMJy4bNsU3XvR138GERZnwRYKUcJT7b/tphgPLYA0DryKILh1g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKyTtvrQNhaxANZJHA7BB5eqw0Nxs6gkU0spfyxgb6GLqrgApvDQQV9386vO925o+g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "3ebe7ab3-d71a-4c24-9a55-8695fae233e9",
+                            SecurityStamp = "41847256-edfd-4c16-b2fe-ddc66f359dc5",
                             TwoFactorEnabled = false,
                             UserName = "user@comp.com"
                         },
                         new
                         {
-                            Id = "f889485d-19f2-49e6-8383-6e5db5f8cd8d",
+                            Id = "20e87e81-8713-45b1-b21b-280eea8a2bf0",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "25ece60c-76cc-4e53-a7ab-345a9e393c35",
+                            ConcurrencyStamp = "bc6b908f-bf91-4226-9eea-a8bd2273e2da",
                             Email = "superAdmin@comp.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "SUPERADMIN@COMP.COM",
                             NormalizedUserName = "SUPERADMIN@COMP.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEC+wCgusiOy6FgJz9A/sIaHLNVuHcNzL61uhmVr4jQtKASkxbMcmH0YpzKMgSQhZoQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFRKJlE0ia+gGuQ/tQDEH08PRBdkSWWQWO0aXtlu26oPmaqOhGypq0VXv4BAISB8Nw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "0df482cb-52b3-4355-addb-1210d1b5057d",
+                            SecurityStamp = "e28da246-3506-47b1-8b31-5bb8555fa13a",
                             TwoFactorEnabled = false,
                             UserName = "superAdmin@comp.com"
                         },
                         new
                         {
-                            Id = "b962711d-9cdb-46a8-adad-059537f0d05e",
+                            Id = "3bd62bc8-aea0-4036-b83f-8e87037dd142",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7413b9d2-85d1-4bd3-96e1-47d157e468cf",
+                            ConcurrencyStamp = "67a3a191-aa39-4a60-bdc3-80a2d5e2e9f9",
                             Email = "admin@comp.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@COMP.COM",
                             NormalizedUserName = "ADMIN@COMP.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEACJJ+XWkCXLMCfaW/Ex6xy4zrDKMMb2F6NNwHtVHifWWyhlYfN3A15Jn2jgztq3Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPx8rHDvQ8QxH9WYJsM+I5MznwTIB6vzh6HSDTWoIC+nRzsFczDJKQXqatgr1/pEbg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "19786b70-a019-4fb9-b708-34d3fcf99229",
+                            SecurityStamp = "43e24097-97ae-4d69-b68a-87b3d9eda452",
                             TwoFactorEnabled = false,
                             UserName = "admin@comp.com"
                         });
@@ -226,10 +226,6 @@ namespace Asma.pl.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Url")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
 
                     b.ToTable("MainHomes");
@@ -291,19 +287,19 @@ namespace Asma.pl.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "26279ccf-8cec-4ba5-ab97-a70cd817fffa",
+                            Id = "f14836cf-c9bc-4830-b304-1110b6eac683",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "52ebf65b-a539-4f91-bab0-681935a8f81a",
+                            Id = "cbce2440-6e2d-436b-a815-4693243b77c6",
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
                         },
                         new
                         {
-                            Id = "5a2a9da0-78c5-4e5c-9cff-607b5e25df0f",
+                            Id = "d4120123-b443-4aea-8ebd-11f10a11ec56",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -398,18 +394,18 @@ namespace Asma.pl.Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "b962711d-9cdb-46a8-adad-059537f0d05e",
-                            RoleId = "26279ccf-8cec-4ba5-ab97-a70cd817fffa"
+                            UserId = "3bd62bc8-aea0-4036-b83f-8e87037dd142",
+                            RoleId = "f14836cf-c9bc-4830-b304-1110b6eac683"
                         },
                         new
                         {
-                            UserId = "58aac1ad-91b2-4480-bef7-4afaecd43ebc",
-                            RoleId = "5a2a9da0-78c5-4e5c-9cff-607b5e25df0f"
+                            UserId = "9df0e160-cf41-4219-a3d1-1f7c22c2fef1",
+                            RoleId = "d4120123-b443-4aea-8ebd-11f10a11ec56"
                         },
                         new
                         {
-                            UserId = "f889485d-19f2-49e6-8383-6e5db5f8cd8d",
-                            RoleId = "52ebf65b-a539-4f91-bab0-681935a8f81a"
+                            UserId = "20e87e81-8713-45b1-b21b-280eea8a2bf0",
+                            RoleId = "cbce2440-6e2d-436b-a815-4693243b77c6"
                         });
                 });
 

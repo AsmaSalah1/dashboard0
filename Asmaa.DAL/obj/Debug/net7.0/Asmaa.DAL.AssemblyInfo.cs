@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asmaa.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2676102f616b85e11e0ae3e21445624d5746c849")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd9a8722cefbb1ffdb3e0f82977bb71c76e5200f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asmaa.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asmaa.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

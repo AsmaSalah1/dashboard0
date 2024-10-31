@@ -1,0 +1,49 @@
+﻿@model IEnumerable<LastProductIndexVM>
+
+<section class="shop_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>
+                All Products
+            </h2>
+        </div>
+        <div class="row">
+
+            @foreach (var p in (IEnumerable<LastProductIndexVM>)ViewBag.Products)
+            {
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+
+                        <a href="">
+                            <div class="img-box">
+                                <img src="~/files/Images/@p.ImageName" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    @p.Name
+                                </h6>
+                                <h6>
+                                    Price
+                                    <span>
+                                        @p.Price $
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            }
+
+        </div>
+        <div class="btn-box">
+            <a asp-action="Index" asp-controller="Home">
+Back            </a>
+        </div>
+    </div>
+</section>

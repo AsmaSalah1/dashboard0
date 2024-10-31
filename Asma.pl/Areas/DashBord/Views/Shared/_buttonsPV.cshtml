@@ -1,6 +1,8 @@
 ﻿@model int 
 <a asp-action="Details" asp-route-id="@Model" class="btn btn-outline-primary">Details</a>
 <a asp-action="Edit" asp-route-id="@Model" class="btn btn-outline-dark">Edit</a>
+ @* منع الرابط من تنفيذ أي عملية إعادة توجيه أو تحديث للصفحة عند الضغط عليه
+ *@
  <a href="javascript:void(0)"  data-id="@Model" class="btn btn-outline-danger delete_btn">Delete</a>
  @* <a href="@Url.Action("Delete", "ControllerName", new { id = Model })" data-id="@Model" class="btn btn-outline-danger delete_btn">Delete</a>
  *@

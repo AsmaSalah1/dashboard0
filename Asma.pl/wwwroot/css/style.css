@@ -74,13 +74,25 @@
     padding: 10px 0;
     border-radius: 15px 15px 0 0;
 }
-
-    #navbarSupportedContent.innerpage_navbar {
-        background-color: white;
-        border-radius: 10px;
-        -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
-        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
-    }
+.header_section nav, .aaa {
+    height: 80px !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 4;
+    margin-bottom: 50px;
+    padding:0;
+}
+.sti, .navbar, .navbar-expand-lg ,.custom_nav-container {
+    position: sticky !important;
+    width: 100% !important;
+    padding: 0 1rem !important;
+}
+#navbarSupportedContent.innerpage_navbar {
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+}
 
         #navbarSupportedContent.innerpage_navbar .nav-item.active .nav-link {
             background-color: #f4f5f6;
@@ -92,11 +104,17 @@
         text-align: center;
         text-transform: uppercase;
         border-radius: 5px;
+        font-size:17px;
     }
+        #navbarSupportedContent .navbar-nav .nav-link:hover {
+            font-size: 19px;
+            color: #d54091;
+        }
+        #navbarSupportedContent .nav-item.active .nav-link {
+            background-color: #ffffff;
+        }
 
-    #navbarSupportedContent .nav-item.active .nav-link {
-        background-color: #ffffff;
-    }
+
 
 a,
 a:hover,
@@ -108,7 +126,10 @@ a:focus {
     a:focus {
         color: initial;
     }
-
+/*.hover0 :hover {
+    color: aqua !important;
+    font-size: 20px !important;
+}*/
 .btn,
 .btn:focus {
     outline: none !important;

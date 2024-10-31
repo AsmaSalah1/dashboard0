@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Asmaa.Pl.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\css\\imagess\\gifts.png",
+      "PackagePath": "staticwebassets\\css\\imagess\\gifts.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\css\\imagess\\saving-img.PNG",
+      "PackagePath": "staticwebassets\\css\\imagess\\saving-img.PNG"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
@@ -8249,12 +8257,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\1d0f3305-167b-4e03-ad70-0fc37275bc30429966789_795926732573730_2441407595161295240_n.jpg",
-      "PackagePath": "staticwebassets\\files\\Images\\1d0f3305-167b-4e03-ad70-0fc37275bc30429966789_795926732573730_2441407595161295240_n.jpg"
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\137b8f19-cdcd-4047-833b-bc67491f9839ff.PNG",
+      "PackagePath": "staticwebassets\\files\\Images\\137b8f19-cdcd-4047-833b-bc67491f9839ff.PNG"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\384b67ea-90d0-49ab-a83e-7a1714e5746bfrontend with react certificate-17.png",
       "PackagePath": "staticwebassets\\files\\Images\\384b67ea-90d0-49ab-a83e-7a1714e5746bfrontend with react certificate-17.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\391b2a5c-9a02-4ca2-ab1b-f1f0d6f91357تنزيل.jpg",
+      "PackagePath": "staticwebassets\\files\\Images\\391b2a5c-9a02-4ca2-ab1b-f1f0d6f91357تنزيل.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\3aae112d-9b1d-42a1-8163-6964ade0e8d7r.PNG",
+      "PackagePath": "staticwebassets\\files\\Images\\3aae112d-9b1d-42a1-8163-6964ade0e8d7r.PNG"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\43280d6d-1f1b-4a64-aad6-23d451c841adrr.PNG",
+      "PackagePath": "staticwebassets\\files\\Images\\43280d6d-1f1b-4a64-aad6-23d451c841adrr.PNG"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\54737a0c-771c-4584-8a1e-d0b13227ae9drrr.PNG",
+      "PackagePath": "staticwebassets\\files\\Images\\54737a0c-771c-4584-8a1e-d0b13227ae9drrr.PNG"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\5a1a4155-dcd9-4e57-95c6-19fa967be7e6a.jpeg",
@@ -8265,32 +8289,48 @@
       "PackagePath": "staticwebassets\\files\\Images\\63bf048c-a09c-4281-bbe3-3811cdd8a855a.jpeg"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\69c1fb12-2adb-461f-9a71-86d8544c9395fff.PNG",
+      "PackagePath": "staticwebassets\\files\\Images\\69c1fb12-2adb-461f-9a71-86d8544c9395fff.PNG"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\6ad28455-9065-4b9e-aac3-91cb7a12d38abook ex.PNG",
       "PackagePath": "staticwebassets\\files\\Images\\6ad28455-9065-4b9e-aac3-91cb7a12d38abook ex.PNG"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\9f3bd911-e4f7-4316-8563-95c87843349efrontend with react certificate-17.png",
-      "PackagePath": "staticwebassets\\files\\Images\\9f3bd911-e4f7-4316-8563-95c87843349efrontend with react certificate-17.png"
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\8a33aa12-f420-4116-a971-a63f2ad5dec2slider.PNG",
+      "PackagePath": "staticwebassets\\files\\Images\\8a33aa12-f420-4116-a971-a63f2ad5dec2slider.PNG"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\a125eecb-642d-4484-a7d3-803c044c325ca.jpeg",
-      "PackagePath": "staticwebassets\\files\\Images\\a125eecb-642d-4484-a7d3-803c044c325ca.jpeg"
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\999c1878-22f7-4114-a851-22e2f50456b1r.PNG",
+      "PackagePath": "staticwebassets\\files\\Images\\999c1878-22f7-4114-a851-22e2f50456b1r.PNG"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\a4fc5d1b-b888-44e7-ae2d-23c79dc81581تنزيل.jpg",
-      "PackagePath": "staticwebassets\\files\\Images\\a4fc5d1b-b888-44e7-ae2d-23c79dc81581تنزيل.jpg"
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\a366db83-bb94-4870-90c4-b994623e2e9cf.PNG",
+      "PackagePath": "staticwebassets\\files\\Images\\a366db83-bb94-4870-90c4-b994623e2e9cf.PNG"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\ab3b25df-5b92-43f1-94a4-307712bb9100rrr.PNG",
+      "PackagePath": "staticwebassets\\files\\Images\\ab3b25df-5b92-43f1-94a4-307712bb9100rrr.PNG"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\b63b0b0c-aaa0-4927-9c78-8f284d9438ffa.jpeg",
       "PackagePath": "staticwebassets\\files\\Images\\b63b0b0c-aaa0-4927-9c78-8f284d9438ffa.jpeg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\d72cbbf4-a804-4228-b7be-8fe471a4ac91frontend with react certificate-17.png",
-      "PackagePath": "staticwebassets\\files\\Images\\d72cbbf4-a804-4228-b7be-8fe471a4ac91frontend with react certificate-17.png"
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\c2b66477-6ecb-4ac7-b212-1322002f8576a.jpeg",
+      "PackagePath": "staticwebassets\\files\\Images\\c2b66477-6ecb-4ac7-b212-1322002f8576a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\ccfd2eb5-8ed3-4757-be10-ef29f6ff6260a.jpeg",
+      "PackagePath": "staticwebassets\\files\\Images\\ccfd2eb5-8ed3-4757-be10-ef29f6ff6260a.jpeg"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\deb33913-ab63-4918-b439-a99311cd5f1eتنزيل.jpg",
       "PackagePath": "staticwebassets\\files\\Images\\deb33913-ab63-4918-b439-a99311cd5f1eتنزيل.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\dfb920d5-c5c0-4e1a-874e-d0178ac18a75rr.PNG",
+      "PackagePath": "staticwebassets\\files\\Images\\dfb920d5-c5c0-4e1a-874e-d0178ac18a75rr.PNG"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\asp\\seesion1\\Asmaa\\Asma.pl\\wwwroot\\files\\Images\\fea601ee-dc45-4b55-aec5-7ef5c4a54b1f429966789_795926732573730_2441407595161295240_n.jpg",

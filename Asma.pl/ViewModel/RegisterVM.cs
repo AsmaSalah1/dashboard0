@@ -4,6 +4,7 @@ namespace Asmaa.Pl.ViewModel
 {
     public class RegisterVM
     {
+        //public string Id { get; set; }
         [Required(ErrorMessage ="Name is required")]
         [MinLength(3)]
         [MaxLength(20)]

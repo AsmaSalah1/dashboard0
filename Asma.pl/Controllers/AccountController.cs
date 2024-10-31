@@ -11,7 +11,7 @@ namespace Asmaa.Pl.Controllers
         private readonly UserManager<ApplicationUser> userManger;
         private readonly SignInManager<ApplicationUser> signInManger;
 
-        public AccountController(UserManager<ApplicationUser> userManger, SignInManager<ApplicationUser> signInManger)
+        public AccountController(UserManager<ApplicationUser> userManger ,SignInManager<ApplicationUser> signInManger)
         {
             this.userManger = userManger;
             this.signInManger = signInManger;
@@ -37,10 +37,40 @@ namespace Asmaa.Pl.Controllers
                 var result = await userManger.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+                    await userManger.AddToRoleAsync(user, "User");
+                    var token = await userManger.GenerateEmailConfirmationTokenAsync(user);
+
+                    var ConfirmEmailURL = Url.Action("ConfirmEmail", "Account", new { userId= user.Id , token = token },
+                       protocol:HttpContext.Request.Scheme);
+                    var email = new Email()
+                    {
+                        Subject = "Confirm your email",
+                        Reciver = model.Email,
+                        Body = $"Confirm your email by Click here {ConfirmEmailURL}",
+                    };
+                    EmailHealper.SendEmail(email);
                     return RedirectToAction("LogIn");
                 }
             }
             return View(model);
+        }
+       
+public async Task<IActionResult> ConfirmEmail(string userId, string token)
+        {
+            if (userId == null || token == null)
+            {
+                return RedirectToAction("Error", "Home");
+            }
+            var user = await userManger.FindByIdAsync(userId);
+            if (user is not null)
+            {
+                var result = await userManger.ConfirmEmailAsync(user, token);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction(nameof(Login));
+                }
+            }
+            return RedirectToAction("Error", "Home");
         }
         public IActionResult LogIn()
         {
@@ -83,12 +113,13 @@ namespace Asmaa.Pl.Controllers
                     //ابعث توكن عشان التشفير و اعرف الايميل لاي يوزر
                     var token = await userManger.GeneratePasswordResetTokenAsync(user);
                    //الاكشين او الصفحة الي رح يوديني عليها عشان اعمل كلمة سر جديدة -- رابط هاي الصفحة بكون بالرسالة تبعت الجيميل 
-                    var resetPassURL=Url.Action("ResetPassword","Account",new {email=model.Email,token=token},"https", "localhost:7208");
+                    var resetPassURL=Url.Action("ResetPassword","Account",new {email=model.Email,token=token},
+                        "https", "localhost:7208");
                     var email = new Email()
                     {
                         Subject = "Reset Pass",
                         Reciver = model.Email,
-                        Body="Hi soso",
+                        Body= resetPassURL,
                     };
                     EmailHealper.SendEmail(email);
                 }
@@ -113,7 +144,7 @@ namespace Asmaa.Pl.Controllers
                     var result=await userManger.ResetPasswordAsync(user,model.Token,model.NewPassword);
                     if (result.Succeeded)
                     {
-                        RedirectToAction(nameof(LogIn));
+                        return RedirectToAction(nameof(LogIn));
                     }
                 }
             }

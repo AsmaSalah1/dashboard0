@@ -1,0 +1,50 @@
+﻿@model MainHome
+@section header {
+    
+}
+<div class="col-md-12">
+    <div class="card card-info">
+        <div class="card-header">
+            <h3 class="card-title">Details for @Model.Title</h3>
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="text-primary">
+
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Image</th>
+                        <th>When Created</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>@Model.Title</td>
+                        <td>
+                            @Model.Description
+                        </td>
+                        <td>
+                            <img src="~/files/Images/@Model.ImageName" class="img " width="100px" height="100px" />
+                        <td>
+                            @Model.CreatedAt
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card-footer clearfix">
+            <ul class="pagination pagination-sm m-0 float-right">
+                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">»</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<a asp-controller="LastProduct" asp-action="Index" class="btn btn-info col-md-1">back</a>

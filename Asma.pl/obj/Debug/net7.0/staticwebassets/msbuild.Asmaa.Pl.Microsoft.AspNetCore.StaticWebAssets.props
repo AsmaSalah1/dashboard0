@@ -16,6 +16,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Asmaa.Pl.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\imagess\gifts.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Asmaa.Pl</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Asmaa.Pl</BasePath>
+      <RelativePath>css/imagess/gifts.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\imagess\gifts.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\imagess\saving-img.PNG))">
+      <SourceType>Package</SourceType>
+      <SourceId>Asmaa.Pl</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Asmaa.Pl</BasePath>
+      <RelativePath>css/imagess/saving-img.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\imagess\saving-img.PNG))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\responsive.css))">
       <SourceType>Package</SourceType>
       <SourceId>Asmaa.Pl</SourceId>
@@ -32992,12 +33024,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\1d0f3305-167b-4e03-ad70-0fc37275bc30429966789_795926732573730_2441407595161295240_n.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\137b8f19-cdcd-4047-833b-bc67491f9839ff.PNG))">
       <SourceType>Package</SourceType>
       <SourceId>Asmaa.Pl</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Asmaa.Pl</BasePath>
-      <RelativePath>files/Images/1d0f3305-167b-4e03-ad70-0fc37275bc30429966789_795926732573730_2441407595161295240_n.jpg</RelativePath>
+      <RelativePath>files/Images/137b8f19-cdcd-4047-833b-bc67491f9839ff.PNG</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -33006,7 +33038,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\1d0f3305-167b-4e03-ad70-0fc37275bc30429966789_795926732573730_2441407595161295240_n.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\137b8f19-cdcd-4047-833b-bc67491f9839ff.PNG))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\384b67ea-90d0-49ab-a83e-7a1714e5746bfrontend with react certificate-17.png))">
       <SourceType>Package</SourceType>
@@ -33023,6 +33055,70 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\384b67ea-90d0-49ab-a83e-7a1714e5746bfrontend with react certificate-17.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\391b2a5c-9a02-4ca2-ab1b-f1f0d6f91357تنزيل.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Asmaa.Pl</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Asmaa.Pl</BasePath>
+      <RelativePath>files/Images/391b2a5c-9a02-4ca2-ab1b-f1f0d6f91357تنزيل.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\391b2a5c-9a02-4ca2-ab1b-f1f0d6f91357تنزيل.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\3aae112d-9b1d-42a1-8163-6964ade0e8d7r.PNG))">
+      <SourceType>Package</SourceType>
+      <SourceId>Asmaa.Pl</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Asmaa.Pl</BasePath>
+      <RelativePath>files/Images/3aae112d-9b1d-42a1-8163-6964ade0e8d7r.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\3aae112d-9b1d-42a1-8163-6964ade0e8d7r.PNG))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\43280d6d-1f1b-4a64-aad6-23d451c841adrr.PNG))">
+      <SourceType>Package</SourceType>
+      <SourceId>Asmaa.Pl</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Asmaa.Pl</BasePath>
+      <RelativePath>files/Images/43280d6d-1f1b-4a64-aad6-23d451c841adrr.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\43280d6d-1f1b-4a64-aad6-23d451c841adrr.PNG))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\54737a0c-771c-4584-8a1e-d0b13227ae9drrr.PNG))">
+      <SourceType>Package</SourceType>
+      <SourceId>Asmaa.Pl</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Asmaa.Pl</BasePath>
+      <RelativePath>files/Images/54737a0c-771c-4584-8a1e-d0b13227ae9drrr.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\54737a0c-771c-4584-8a1e-d0b13227ae9drrr.PNG))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\5a1a4155-dcd9-4e57-95c6-19fa967be7e6a.jpeg))">
       <SourceType>Package</SourceType>
@@ -33056,6 +33152,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\63bf048c-a09c-4281-bbe3-3811cdd8a855a.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\69c1fb12-2adb-461f-9a71-86d8544c9395fff.PNG))">
+      <SourceType>Package</SourceType>
+      <SourceId>Asmaa.Pl</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Asmaa.Pl</BasePath>
+      <RelativePath>files/Images/69c1fb12-2adb-461f-9a71-86d8544c9395fff.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\69c1fb12-2adb-461f-9a71-86d8544c9395fff.PNG))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\6ad28455-9065-4b9e-aac3-91cb7a12d38abook ex.PNG))">
       <SourceType>Package</SourceType>
       <SourceId>Asmaa.Pl</SourceId>
@@ -33072,12 +33184,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\6ad28455-9065-4b9e-aac3-91cb7a12d38abook ex.PNG))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\9f3bd911-e4f7-4316-8563-95c87843349efrontend with react certificate-17.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\8a33aa12-f420-4116-a971-a63f2ad5dec2slider.PNG))">
       <SourceType>Package</SourceType>
       <SourceId>Asmaa.Pl</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Asmaa.Pl</BasePath>
-      <RelativePath>files/Images/9f3bd911-e4f7-4316-8563-95c87843349efrontend with react certificate-17.png</RelativePath>
+      <RelativePath>files/Images/8a33aa12-f420-4116-a971-a63f2ad5dec2slider.PNG</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -33086,14 +33198,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\9f3bd911-e4f7-4316-8563-95c87843349efrontend with react certificate-17.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\8a33aa12-f420-4116-a971-a63f2ad5dec2slider.PNG))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\a125eecb-642d-4484-a7d3-803c044c325ca.jpeg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\999c1878-22f7-4114-a851-22e2f50456b1r.PNG))">
       <SourceType>Package</SourceType>
       <SourceId>Asmaa.Pl</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Asmaa.Pl</BasePath>
-      <RelativePath>files/Images/a125eecb-642d-4484-a7d3-803c044c325ca.jpeg</RelativePath>
+      <RelativePath>files/Images/999c1878-22f7-4114-a851-22e2f50456b1r.PNG</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -33102,14 +33214,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\a125eecb-642d-4484-a7d3-803c044c325ca.jpeg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\999c1878-22f7-4114-a851-22e2f50456b1r.PNG))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\a4fc5d1b-b888-44e7-ae2d-23c79dc81581تنزيل.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\a366db83-bb94-4870-90c4-b994623e2e9cf.PNG))">
       <SourceType>Package</SourceType>
       <SourceId>Asmaa.Pl</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Asmaa.Pl</BasePath>
-      <RelativePath>files/Images/a4fc5d1b-b888-44e7-ae2d-23c79dc81581تنزيل.jpg</RelativePath>
+      <RelativePath>files/Images/a366db83-bb94-4870-90c4-b994623e2e9cf.PNG</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -33118,7 +33230,23 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\a4fc5d1b-b888-44e7-ae2d-23c79dc81581تنزيل.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\a366db83-bb94-4870-90c4-b994623e2e9cf.PNG))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\ab3b25df-5b92-43f1-94a4-307712bb9100rrr.PNG))">
+      <SourceType>Package</SourceType>
+      <SourceId>Asmaa.Pl</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Asmaa.Pl</BasePath>
+      <RelativePath>files/Images/ab3b25df-5b92-43f1-94a4-307712bb9100rrr.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\ab3b25df-5b92-43f1-94a4-307712bb9100rrr.PNG))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\b63b0b0c-aaa0-4927-9c78-8f284d9438ffa.jpeg))">
       <SourceType>Package</SourceType>
@@ -33136,12 +33264,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\b63b0b0c-aaa0-4927-9c78-8f284d9438ffa.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\d72cbbf4-a804-4228-b7be-8fe471a4ac91frontend with react certificate-17.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\c2b66477-6ecb-4ac7-b212-1322002f8576a.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>Asmaa.Pl</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Asmaa.Pl</BasePath>
-      <RelativePath>files/Images/d72cbbf4-a804-4228-b7be-8fe471a4ac91frontend with react certificate-17.png</RelativePath>
+      <RelativePath>files/Images/c2b66477-6ecb-4ac7-b212-1322002f8576a.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -33150,7 +33278,23 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\d72cbbf4-a804-4228-b7be-8fe471a4ac91frontend with react certificate-17.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\c2b66477-6ecb-4ac7-b212-1322002f8576a.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\ccfd2eb5-8ed3-4757-be10-ef29f6ff6260a.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Asmaa.Pl</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Asmaa.Pl</BasePath>
+      <RelativePath>files/Images/ccfd2eb5-8ed3-4757-be10-ef29f6ff6260a.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\ccfd2eb5-8ed3-4757-be10-ef29f6ff6260a.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\deb33913-ab63-4918-b439-a99311cd5f1eتنزيل.jpg))">
       <SourceType>Package</SourceType>
@@ -33167,6 +33311,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\deb33913-ab63-4918-b439-a99311cd5f1eتنزيل.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\dfb920d5-c5c0-4e1a-874e-d0178ac18a75rr.PNG))">
+      <SourceType>Package</SourceType>
+      <SourceId>Asmaa.Pl</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Asmaa.Pl</BasePath>
+      <RelativePath>files/Images/dfb920d5-c5c0-4e1a-874e-d0178ac18a75rr.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\dfb920d5-c5c0-4e1a-874e-d0178ac18a75rr.PNG))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\Images\fea601ee-dc45-4b55-aec5-7ef5c4a54b1f429966789_795926732573730_2441407595161295240_n.jpg))">
       <SourceType>Package</SourceType>

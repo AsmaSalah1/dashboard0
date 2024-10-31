@@ -38,7 +38,6 @@
                             </td>
                             <td>
                                 <partial name="_buttonsPV" for="@itme.Id" />
-                                <a asp-controller="Features" asp-action="Index">esfdwe</a>
                             </td>
                         </tr>
                     }
@@ -49,7 +48,7 @@
         </div>
 
     </div>
-    <a asp-controller="LastProduct" asp-action="Create" class="btn btn-primary">Create</a>
+    <a asp-controller="MainHomes" asp-action="Create" class="btn btn-primary">Create</a>
 </div>
 @section scriptes{
 
@@ -108,7 +107,7 @@
                 const id = button.dataset.id;
                 // console.log(id);
                 try {
-                    const response = await fetch(`/DashBord/LastProduct/DeleteConfirm/${id}`, {
+                    const response = await fetch(`/DashBord/MainHomes/DeleteConfirm/${id}`, {
                         method: 'POST', Headers: {
                             "content-Type": "application/json"
                         }
